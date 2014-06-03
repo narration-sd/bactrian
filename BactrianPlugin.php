@@ -25,7 +25,7 @@ class BactrianPlugin extends BasePlugin
         return 'http://about.me/narration_sd';
     }
 
-    public function hookAddTwigExtension()
+    public function addTwigExtension()
     {
         Craft::import('plugins.bactrian.twigextensions.BactrianTwigExtension');
         return new BactrianTwigExtension();
