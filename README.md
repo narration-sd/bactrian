@@ -1,4 +1,5 @@
-bactrian
+bactrian - test 1
+
 ========
 
 This is a Craft (buildwithcraft.com) plugin without user interface, which installs two Twig filters for string modification. One has to do with camelcase, thus the two-humped name.
